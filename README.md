@@ -1,6 +1,6 @@
 # Elemel's Blog
 
-> Do not go gentle into that good night.
+> Do not go gentle into that good night
 >
 > &mdash; Dylan Thomas
 
