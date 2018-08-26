@@ -10,4 +10,4 @@ Left to do:
 2. Stitch mixed-sized chunks along faces (two chunks per seam)
 3. Stitch mixed-sized chunks along edges (three or four chunks per seam)
 
-Steps 1 and 2 shouldn't be too hard, but I dread taking step 3 with my current approach, which involves duplicating a lot of code per axis. There will be many different cases when stitching smaller chunks together with larger ones.
+Steps 1 and 2 shouldn't be too hard, but I dread taking step 3 with my current approach, which involves duplicating a lot of code per axis. There will be many different cases when stitching smaller chunks to with larger ones.
