@@ -1,6 +1,6 @@
 # Stitched faces between equal-sized neighbor chunks
 
-After much confusion and some trial-and-error, I managed to stitch together equal-sized neighbor chunks along their faces. Drawing some almost unrelated doodles in Gimp helped me sort out multiple mistakes. The small, green planet with a tall, white building already looks a lot better:
+After much confusion and some trial-and-error, I managed to stitch together equal-sized neighbor chunks along their faces. Selective debug drawing in Unity, along with some mostly unrelated doodles in Gimp, helped me track down and fix multiple bugs. The small, green planet with a tall, white building already looks a lot better:
 
 ![Stitched faces between equal-sized neighbor chunks](p2p.png)
 
