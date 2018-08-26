@@ -4,4 +4,5 @@
 >
 > &mdash; Dylan Thomas
 
-2018-08-25: [Terrain chunks with gaps](2018/08/25/README.md)
+- 2018-08-26: [Stitched faces between equal-sized neighbor chunks](2918/08/26/README.md)
+- 2018-08-25: [Terrain chunks with gaps](2018/08/25/README.md)
