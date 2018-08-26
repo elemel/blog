@@ -1,8 +1,10 @@
 # Stitched faces between equal-sized neighbor chunks
 
+After much confusion and some trial-and-error, I managed to stitch together equal-sized neighbor chunks along their faces. Drawing some almost unrelated doodles in Gimp helped me sort out multiple mistakes. The small, green planet with a tall, white building already looks a lot better:
+
 ![Stitched faces between equal-sized neighbor chunks](p2p.png)
 
-After much confusion and some trial-and-error, I managed to stitch together equal-sized neighbor chunks along their faces. Drawing some almost unrelated doodles in Gimp helped me sort out multiple mistakes. Left to do:
+Left to do:
 
 1. Stitch equal-sized chunks along edges (four chunks per seam)
 2. Stitch mixed-sized chunks along faces (two chunks per seam)
