@@ -4,7 +4,7 @@ The initial code for generating chunk meshes was unwieldy.
 It wasn't that complex,
 but I had still painted myself into a corner by sampling the distance field in a fixed grid.
 When I started thinking about how to stitch smaller chunks to larger ones,
-the fixed grid started feeling like a sticky web.
+the fixed grid started to feel like a sticky web.
 
 So I threw out most of the code and implemented something more brute force.
 I also threw out submeshes,
