@@ -1,13 +1,13 @@
-# Ported nickgildea/qef to C#
+# Ported QEF to C#
 
-![Ported nickgildea/qef](qef.png)
+![Ported QEF to C#](qef.png)
 
 When using the Dual Contouring algorithm,
-you have a choice of where in the cell to place the vertex.
+you have a choice of where in the intersected cell to place the vertex.
 You can even place the vertex outside of the cell,
-but I believe doing that can result in self-intersections.
+but I believe doing that can potentially generate self-intersecting geometry.
 
-The QEF (Quadratic Error Function) approach attempts to minimize the sum of squared distances to the edge intersection planes.
+The Quadratic Error Function (QEF) approach attempts to minimize the sum of squared distances from the vertex to the edge intersection planes.
 It can generate sharp corners,
 but requires some tuning to avoid spiky geometry.
 I have made yet another [port](https://github.com/elemel/qef-csharp) of
