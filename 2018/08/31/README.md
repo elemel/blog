@@ -10,7 +10,7 @@ but I believe doing that can potentially generate self-intersecting geometry.
 The Quadratic Error Function (QEF) approach attempts to minimize the sum of squared distances from the vertex to the edge intersection planes.
 It can generate sharp corners,
 but requires some tuning to avoid spiky geometry.
-I have made yet another [port](https://github.com/elemel/qef-csharp) of
-[Nick Gildea's QEF implementation](https://github.com/nickgildea/qef) to C# for use in Unity.
+I have made [yet another port](https://github.com/elemel/qef-csharp) of
+Nick Gildea's [QEF implementation](https://github.com/nickgildea/qef) to C# for use in Unity.
 The [Dual Contouring Tutorial](https://www.boristhebrave.com/2018/04/15/dual-contouring-tutorial/)
 by Boris the Brave was very helpful for understanding how to tune the QEF output.
