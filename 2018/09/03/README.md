@@ -1,4 +1,4 @@
-# Blending face and vertex normals
+# Blending face normals and vertex normals
 
 During the last few days,
 I have tried to improve the look of the output mesh by using the normals from the distance field.
