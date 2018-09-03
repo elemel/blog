@@ -24,4 +24,4 @@ And the approach finally did indeed yield output meshes with both smooth and sha
 with a visual artifact of faceted features where more sampling is required.
 And that's the price we pay.
 
-![Blending face and vertex normals](smooth.png)
+![Blending face normals and vertex normals](smooth.png)
