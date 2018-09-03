@@ -4,9 +4,11 @@ During the last few days,
 I have tried to improve the look of the output mesh by applying the normals from the distance field.
 The previous images all displayed normals recalculated by Unity.
 These would be face normals since the Dual Contouring implementation generates separate vertices for each triangle.
-When I started providing normals myself,
+When I started providing the normals myself,
 some of the smaller triangles ended up black.
-The problem was that Unity's vector class explicitly but unexpectedly normalizes small vectors to zero.
+Could this be related to floating-point precision?
+No, we will run into that later.
+The problem was that Unity's vector class normalizes small vectors to zero.
 That kind of behaviour should never be normalized.
 
 Now wielding artisanal, non-zero normals, I carried on with my experiments. In the end, I settled for
