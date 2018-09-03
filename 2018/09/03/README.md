@@ -1,7 +1,7 @@
 # Blending face and vertex normals
 
 During the last few days,
-I have experimented with using normals sampled from the distance field for the output mesh.
+I have experimented with sampled mesh normals from the distance field.
 The previous images all used normals recalculated by Unity.
 Since my Dual Contouring implementation generates separate vertices for each triangle,
 the recalculated normals would be face normals.
