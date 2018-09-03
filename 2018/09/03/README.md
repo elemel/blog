@@ -11,7 +11,7 @@ That kind of behaviour should never be normalized.
 
 Now wielding artisanal, non-zero normals, I carried on with my experiments. In the end, I settled for
 
-- the vertex normal from the distance field when it's within 15 degrees of the triangle's face normal,
+- the vertex normal from the distance field when it's within 15 degrees of the face normal,
 - the face normal when the difference is above 30 degrees,
 - and a smooth blend of both in between.
 
