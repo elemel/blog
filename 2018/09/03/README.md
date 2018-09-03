@@ -2,7 +2,7 @@
 
 During the last few days,
 I have tried to improve the look of the output mesh by using the normals from the distance field.
-The previous images all used normals recalculated by Unity.
+The previous images all displayed normals recalculated by Unity.
 These would be face normals since the Dual Contouring implementation generates separate vertices for each triangle.
 When I started providing normals myself,
 some of the smaller triangles ended up black.
