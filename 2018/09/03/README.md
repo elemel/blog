@@ -10,7 +10,7 @@ some of the smaller triangles ended up black.
 The problem turned out to be that Unity's vector class unexpectedly truncates small vectors to zero when normalizing.
 That kind of behaviour should never be normalized.
 
-After some further experimentation with my now artisanal, mostly non-zero normals,
+After some further experimentation with artisanal, non-zero normals,
 I ended up using
 
 - the vertex normal from the distance field when it's within 15 degrees of the triangle's face normal,
