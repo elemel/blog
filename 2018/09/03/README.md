@@ -15,10 +15,11 @@ Now wielding artisanal, non-zero normals, I carried on with my experiments. In t
 - the face normal when the difference is above 30 degrees,
 - and a smooth blend of both in between.
 
-Another problem that cropped up here was that Unity's smoothstep function doesn't do quite what I expected.
-Once that was sorted out by adapting some code from Wikipedia,
-the approach yielded output meshes with both smooth and sharp features.
-A visual artifact of the thresholds is that undersampled features look faceted.
+Another problem that cropped up here was that Unity's smoothstep function doesn't do quite what I was hoping for.
+I was starting to sense a pattern of unreasonable expectations from my side.
+Luckily, these things are usually sorted out quickly once identified.
+And the approach finally did indeed yield output meshes with both smooth and sharp features,
+with a visual artifact of faceted features where more sampling is required.
 And that's the price we pay.
 
 ![Blending face and vertex normals](smooth.png)
