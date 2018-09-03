@@ -17,7 +17,7 @@ Now wielding artisanal, non-zero normals, I carried on with my experiments. In t
 - the face normal when the difference is above 30 degrees,
 - and a smooth blend of both in between.
 
-Another problem that cropped up here was that Unity's smoothstep function doesn't do what I was going for.
+Another problem that surfaced here was that Unity's smoothstep function doesn't do what I was hoping for.
 I was already starting to sense a pattern of unreasonable expectations from my side.
 Luckily, these things can be sorted out quickly once identified.
 The approach finally yielded an output mesh with both smooth and sharp features.
