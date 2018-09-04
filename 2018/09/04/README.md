@@ -2,7 +2,7 @@
 
 ![Blending colors and shapes](smooth-min.png)
 
-The smooth-min function can blend smoothly between two shapes.
+The smooth-min function can blend smoothly between two shapes in a distance field.
 There are several variants of smooth-min.
 I'm using one that I believe was popularized by Alex Evans of demoscene and Media Molecule fame.
 The upcoming Dreams game looks amazing, by the way.
