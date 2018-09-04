@@ -19,7 +19,7 @@ Now wielding artisanal, non-zero face normals as well as vertex normals from the
 
 - the vertex normal when it's within 15 degrees of the face normal,
 - the face normal when the difference is above 30 degrees,
-- and a smooth blend of both in between.
+- and a smoothstepped blend of both in between.
 
 Another problem that surfaced during experimentation was that Unity's smoothstep function doesn't do what I was hoping for.
 I was already starting to sense a pattern of unreasonable expectations from my side.
