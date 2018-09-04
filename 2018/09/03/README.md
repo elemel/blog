@@ -11,9 +11,9 @@ Proceeding with the latter alternative,
 I calculated face normals from the cross product of the triangle edges.
 Some of the smaller triangles ended up black.
 Could this be related to floating-point precision?
-Not this time, but we will most likely run into that later.
-The problem here was that Unity normalizes small vectors to zero.
-Let's not normalize that kind of behaviour.
+Not this time, but stay tuned for that topic in future posts.
+The problem was rather that Unity normalizes small vectors to zero.
+Let's not normalize that kind of behavior.
 
 Now wielding artisanal, non-zero face normals as well as vertex normals from the distance field, I carried on with my experiments. In the end, I settled for
 
