@@ -23,7 +23,7 @@ The experiments continued with artisanal, non-zero face normals as well as verte
 
 Speaking of smoothstepping,
 Unity's smoothstep function doesn't do what I assumed.
-That was easy to fix once I understood what the problem was.
+That was easy to fix.
 At this point, the algorithm finally yielded a mesh with both smooth and sharp features.
 There are visual artifacts of facets and cuts where more sampling is required.
 And that's the price we pay.
