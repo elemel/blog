@@ -15,7 +15,7 @@ Not this time, but stay tuned for that topic in future posts.
 The problem was rather that Unity normalizes small vectors to zero.
 Let's not normalize that kind of behavior.
 
-Now wielding artisanal, non-zero face normals as well as vertex normals from the distance field, the experiments continued. In the end, I settled for
+Now dual-wielding artisanal, non-zero face normals and vertex normals from the distance field, the experiments continued. In the end, I settled for
 
 - the vertex normal when it's within 15 degrees of the face normal,
 - the face normal when the difference is above 30 degrees,
