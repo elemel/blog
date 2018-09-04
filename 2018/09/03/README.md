@@ -22,7 +22,7 @@ Now wielding artisanal, non-zero face normals as well as vertex normals from the
 - and a smoothstepped blend of both in between.
 
 Speaking of smoothstepping,
-Unity's smoothstep function doesn't do what I expected.
+Unity's smoothstep function doesn't do what I assumed.
 That was easy to fix once I understood what the problem was.
 At this point, the algorithm finally yielded a mesh with both smooth and sharp features.
 There are visual artifacts of facets and cuts where more sampling is required.
