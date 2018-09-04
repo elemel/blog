@@ -15,7 +15,7 @@ public static float SmoothMin(float distance1, float distance2, float radius)
 }
 ```
 
-There's a lot of resources online about sampling distance fields,
+There are a lot of resources online about the distance aspect of distance fields,
 but not as much about materials and shading.
 My current approach is to return a diffuse color as part of the distance sample.
 The material data can be extended later on,
@@ -23,6 +23,14 @@ perhaps with a simplified specular or emissive parameter.
 For blending the color smoothly, I came up with this:
 
 ```csharp
+public DistanceSample SmoothMin(DistanceSample sample1, DistanceSample sample2, float radius)
+{
+    float distance = SmoothMin(sample1.distance, sample2.distance, radius);
+    float t = SmoothStep(-radius, radius, sample1.distance - sample2.distance);
+    Color color = Color.Lerp(sample1.color, sample2.color, t);
+    return new DistanceSample(distance, color);
+}
+
 public struct DistanceSample
 {
     public float distance;
@@ -33,14 +41,6 @@ public struct DistanceSample
         this.distance = distance;
         this.color = color;
     }
-}
-
-public DistanceSample SmoothMin(DistanceSample sample1, DistanceSample sample2, float radius)
-{
-    float distance = SmoothMin(sample1.distance, sample2.distance, radius);
-    float t = SmoothStep(-radius, radius, sample1.distance - sample2.distance);
-    Color color = Color.Lerp(sample1.color, sample2.color, t);
-    return new DistanceSample(distance, color);
 }
 
 public float SmoothStep(float x1, float x2, float x)
