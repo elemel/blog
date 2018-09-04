@@ -6,11 +6,13 @@ The previous images all displayed normals recalculated by Unity.
 These were face normals since the algorithm generated separate vertices for each triangle.
 For a smoother look,
 we could either share vertices between triangles or supply explicit normals.
+The former alternative seemed unrealistic,
+since we actually do want sharp edges and corners in some cases.
 I started by calculating my own face normals from the cross product of the triangle edges.
 But some of the smaller triangles ended up black.
 Could this be related to floating-point precision?
 Not this time, but we will most likely run into that later.
-The problem was actually that Unity's vector class normalizes small vectors to zero.
+The problem here was that Unity's vector class normalizes small vectors to zero.
 That kind of behaviour should never be normalized.
 
 Now wielding artisanal, non-zero face normals as well as vertex normals from the distance field, I carried on with my experiments. In the end, I settled for
@@ -19,7 +21,7 @@ Now wielding artisanal, non-zero face normals as well as vertex normals from the
 - the face normal when the difference is above 30 degrees,
 - and a smooth blend of both in between.
 
-Another problem that surfaced here was that Unity's smoothstep function doesn't do what I was hoping for.
+Another problem that surfaced during experimentation was that Unity's smoothstep function doesn't do what I was hoping for.
 I was already starting to sense a pattern of unreasonable expectations from my side.
 Luckily, these things can be sorted out quickly once identified.
 The approach finally yielded an output mesh with both smooth and sharp features.
