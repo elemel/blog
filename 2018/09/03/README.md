@@ -1,9 +1,9 @@
 # Blending face normals and vertex normals
 
 During the last few days,
-I have tried to improve the look of the Dual Contouring output mesh by applying the normals from the distance field.
+I have tried to improve the look of the Dual Contouring output by applying the normals from the distance field.
 The previous images all displayed normals recalculated by Unity.
-These would be face normals since the implementation generates separate vertices for each triangle.
+These were face normals since the algorithm generated separate vertices for each triangle.
 For a smoother look,
 we could either share vertices between triangles or supply explicit normals.
 I started by calculating my own face normals from the cross product of the triangle edges.
@@ -13,7 +13,7 @@ Not this time, but we will most likely run into that later.
 The problem was actually that Unity's vector class normalizes small vectors to zero.
 That kind of behaviour should never be normalized.
 
-Now wielding artisanal, non-zero face normals along with vertex normals from the distance field, I carried on with my experiments. In the end, I settled for
+Now wielding artisanal, non-zero face normals as well as vertex normals from the distance field, I carried on with my experiments. In the end, I settled for
 
 - the vertex normal when it's within 15 degrees of the face normal,
 - the face normal when the difference is above 30 degrees,
