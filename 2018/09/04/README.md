@@ -16,7 +16,7 @@ public static float SmoothMin(float distance1, float distance2, float radius)
 ```
 
 There are a lot of resources online about the distance aspect of distance fields,
-but not as much about materials and shading.
+but not as many about materials and shading.
 My current approach is to return a diffuse color as part of the distance sample.
 The material data can be extended later on,
 perhaps with a simplified specular or emissive parameter.
