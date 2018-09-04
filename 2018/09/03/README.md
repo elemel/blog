@@ -21,10 +21,10 @@ Now wielding artisanal, non-zero face normals as well as vertex normals from the
 - the face normal when the difference is above 30 degrees,
 - and a smoothstepped blend of both in between.
 
-Another problem that surfaced during experimentation was that Unity's smoothstep function doesn't do what I was hoping for.
-I was already starting to sense a pattern of unreasonable expectations from my side.
-Luckily, these things can be sorted out quickly once identified.
-The algorithm finally yielded a mesh with both smooth and sharp features.
+Speaking of smoothstepping,
+Unity's smoothstep function doesn't do what I expected.
+That was easy to fix once I understood what the problem was.
+At this point, the algorithm finally yielded a mesh with both smooth and sharp features.
 There are visual artifacts of facets and cuts where more sampling is required.
 And that's the price we pay.
 
