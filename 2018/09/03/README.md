@@ -3,7 +3,7 @@
 During the last few days,
 I have tried to improve the look of the Dual Contouring output by applying the normals from the distance field.
 The previous screenshots all displayed normals recalculated by Unity.
-These were face normals since the algorithm generated separate vertices for each triangle.
+These were always face normals because the algorithm generated separate vertices for each triangle.
 For a smoother look,
 we could either share vertices between triangles or supply explicit normals.
 The former alternative seemed unattractive, given that we do want sharp edges and corners in some cases.
