@@ -24,7 +24,7 @@ Now wielding artisanal, non-zero face normals as well as vertex normals from the
 Another problem that surfaced during experimentation was that Unity's smoothstep function doesn't do what I was hoping for.
 I was already starting to sense a pattern of unreasonable expectations from my side.
 Luckily, these things can be sorted out quickly once identified.
-The approach finally yielded an output mesh with both smooth and sharp features.
+The algorithm finally yielded a mesh with both smooth and sharp features.
 There are visual artifacts of facets and cuts where more sampling is required.
 And that's the price we pay.
 
