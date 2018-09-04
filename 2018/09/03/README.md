@@ -6,7 +6,7 @@ The previous images all displayed normals recalculated by Unity.
 These were face normals since the algorithm generated separate vertices for each triangle.
 For a smoother look,
 we could either share vertices between triangles or supply explicit normals.
-The former alternative seemed unattractive, given that we actually do want sharp edges and corners in some cases.
+The former alternative seemed unattractive, given that we do want sharp edges and corners in some cases.
 I calculated face normals from the cross product of the triangle edges.
 But some of the smaller triangles ended up black.
 Could this be related to floating-point precision?
