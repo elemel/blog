@@ -12,7 +12,7 @@ Instead, you can find them on disk right here:
 
 ```<project>/Library/shadercompiler-UnityShaderCompiler*.log```
 
-The logs aren't cleared between compilations either.
+The logs do not reset between compilations either.
 New error messages can easily be lost among the great old ones.
 Another, also most annoying thing was that for-loops were incredibly slow to compile in macOS Sierra (Metal),
 and in many cases failed to compile at all.
