@@ -5,6 +5,7 @@
 During the last week,
 I learned one or two things about compute shaders.
 Porting the Dual Contouring code to HLSL improved performance by orders of magnitude.
+The new code is leaner, cleaner and more data-driven. I have yet to add QEF and noise to it.
 
 There is some room for improvement in Unity's support for compute shaders in macOS.
 The most annoying thing is that compilation errors do not surface in the editor.
