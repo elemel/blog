@@ -7,7 +7,7 @@ I learned one or two things about compute shaders.
 Porting the Dual Contouring code to HLSL improved performance by orders of magnitude.
 
 There is some room for improvement in Unity's support for compute shaders in macOS.
-The most annoying thing is that compilation errors aren't surfaced in the editor.
+The most annoying thing is that compilation errors do not surface in the editor.
 Instead, you can find them on disk right here:
 
 ```<project>/Library/shadercompiler-UnityShaderCompiler*.log```
