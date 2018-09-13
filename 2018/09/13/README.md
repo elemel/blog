@@ -14,7 +14,8 @@ Instead you can find them on disk here:
 
 The logs aren't cleared between compilations either,
 which means that new error messages can easily be lost among the great old ones.
-Another annoying thing is that shader compilation hangs the editor.
-The last annoying thing was that for-loops were very slow to compile under Metal in Mac OS Sierra,
-and in many situations failed to compile at all.
-The compute shader support is a lot better under Metal 2 in High Sierra.
+Another, also most annoying thing was that for-loops were incredibly slow to compile under Metal in Mac OS Sierra,
+and in many cases failed to compile at all.
+The editor hangs during shader compilation,
+making the long compilation times even more disturbing.
+Thankfully, the compute shader support is a lot better under Metal 2 in High Sierra.
