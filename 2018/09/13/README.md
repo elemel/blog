@@ -1,5 +1,7 @@
 # The olive out of space
 
+![The olive out of space](olive.png)
+
 During the last week or so,
 I've learned one or two things about compute shaders.
 Porting the Dual Contouring code to HLSL improved performance by orders of magnitude.
@@ -16,5 +18,3 @@ Another annoying thing is that shader compilation hangs the editor.
 The last annoying thing was that for-loops were very slow to compile under Metal in Mac OS Sierra,
 and in many situations failed to compile at all.
 The compute shader support is a lot better under Metal 2 in High Sierra.
-
-![The olive out of space](olive.png)
