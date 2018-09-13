@@ -4,6 +4,7 @@
 >
 > &mdash; Dylan Thomas
 
+- [The olive out of space](2018/09/13/README.md) [2018-09-13]
 - [Blending colors and shapes](2018/09/04/README.md) [2018-09-04]
 - [Blending face normals and vertex normals](2018/09/03/README.md) [2018-09-03]
 - [Ported QEF to C#](2018/08/31/README.md) [2018-08-31]
