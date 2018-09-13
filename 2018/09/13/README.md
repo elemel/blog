@@ -18,5 +18,3 @@ and in many situations failed to compile at all.
 The compute shader support is a lot better under Metal 2 in High Sierra.
 
 ![The olive out of space](olive.png)
-
-PS: Looking forward to the imminent Revocation album.
