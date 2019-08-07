@@ -7,6 +7,7 @@
 
 ## 2019
 
+- [Switching to hex grids in Rafterlife](2019/08/07/README.md) [2019-08-07]
 - [Rafterlife](2019/08/04/README.md) [2019-08-04]
 
 
