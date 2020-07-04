@@ -11,7 +11,7 @@ Making these changes,
 I struggled to understand the tangent-space coordinate system,
 as well as LÖVE's depth projection.
 Solving graphics problems is both easy and hard.
-Hard because of ghe GPU mystery box,
+Hard because of the GPU mystery box,
 and the sheer volume of data processed each frame.
 Easy due to the obviously visual nature of it all.
 Generally speaking,
