@@ -7,6 +7,7 @@
 
 ## 2020
 
+- [Quad pro quo](2020/07/04/README.md) [2020-07-04]
 - [We are all in the gutter](2020/07/03/README.md) [2020-07-03]
 
 
