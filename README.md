@@ -7,6 +7,7 @@
 
 ## 2020
 
+- [Dual contouring reconstructed](2020/07/14) [2020-07-14]
 - [Surface splatting of constructive solid geometry](2020/07/08) [2020-07-08]
 - [Quad pro quo](2020/07/04) [2020-07-04]
 - [We are all in the gutter](2020/07/03) [2020-07-03]
