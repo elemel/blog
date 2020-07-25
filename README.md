@@ -7,6 +7,7 @@
 
 ## 2020
 
+- [Editor mode](2020/07/26) [2020-07-26]
 - [Dual contouring reconstructed](2020/07/14) [2020-07-14]
 - [Surface splatting of constructive solid geometry](2020/07/08) [2020-07-08]
 - [Quad pro quo](2020/07/04) [2020-07-04]
