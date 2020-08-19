@@ -7,6 +7,7 @@
 
 ## 2020
 
+- [The Fresnel effect](2020/08/19) [2020-08-19]
 - [Editor mode](2020/07/26) [2020-07-26]
 - [Dual contouring reconstructed](2020/07/14) [2020-07-14]
 - [Surface splatting of constructive solid geometry](2020/07/08) [2020-07-08]
