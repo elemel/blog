@@ -5,7 +5,7 @@ my game engine of yesteryear.
 Tabula follows the [entity-component-system](https://en.wikipedia.org/wiki/Entity_component_system) (ECS) design,
 which is an example of [data-oriented design](https://en.wikipedia.org/wiki/Data-oriented_design).
 An ECS engine has much in common with a database engine,
-and less in common with the object-oriented programs that most of us are used to.
+and less in common with the object-oriented programs that most of us are used to most of the time.
 
 In Tabula,
 an entity is simply an integer ID,
