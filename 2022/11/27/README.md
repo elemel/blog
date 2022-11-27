@@ -32,7 +32,7 @@ A tablet is similar to a database table,
 but  `table` was already taken in Lua.
 Tablets are further split into shards that contain the actual row data.
 If the archetype of a row changes,
-it moves to the tablet belonging to its new archetype.
+the row moves to the tablet of the new archetype.
 
 Here's some log output from running the Scoreline example:
 
