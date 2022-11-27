@@ -5,6 +5,11 @@
 > &mdash; Dylan Thomas
 
 
+## 2022
+
+- [Tabula rasa](2022/11/27) [2022-11-27]
+
+
 ## 2020
 
 - [The Fresnel effect](2020/08/19) [2020-08-19]
