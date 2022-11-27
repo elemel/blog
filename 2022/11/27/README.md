@@ -43,6 +43,7 @@ Adding shard #1 for archetype: /box/color/entity/paddleTag/position
 Generating row-traversal code for arity 3
 ```
 
-Scoreline started as a clone of Pong, but I added 65,536 balls as a performance test of Tabula.
+Scoreline started as a clone of Pong,
+but I ended up adding 65,536 balls as a performance test of Tabula.
 
 ![Scoreline](scoreline.png)
