@@ -27,12 +27,12 @@ the set of components can change by adding or removing components.
 Tabula is an archetype-based ECS engine.
 An archetype is identified by a unique set of components.
 Archetypes are formatted as filesystem paths.
-Entities with the same archetype belong to the same tablet.
+Entities with the same archetype are stored in the same tablet.
 A tablet is similar to a database table,
 but  `table` was already taken in Lua.
 Tablets are further split into shards that contain the actual row data.
 If the archetype of a row changes,
-it moves to the tablet of its new archetype.
+it moves to the tablet belonging to its new archetype.
 
 Here's some log output from running the Scoreline example:
 
