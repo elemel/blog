@@ -18,7 +18,7 @@ typically primitives or structs.
 Typed component values are stored in C arrays,
 enabling efficient use of the [CPU cache](https://en.wikipedia.org/wiki/CPU_cache).
 
-An entity can have component values attached to it,
+An entity can have component values attached to it.
 The entity itself is in fact also a component, with the ID as value.
 The component values attached to an entity form a row.
 During the lifetime of a row,
