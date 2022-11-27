@@ -17,7 +17,6 @@ The data types are C types,
 typically primitives or structs.
 Typed component values are stored in C arrays,
 enabling efficient use of the [CPU cache](https://en.wikipedia.org/wiki/CPU_cache).
-
 An entity can have multiple components attached to it,
 along with the values of the components.
 The entity itself is in fact also a component, with the ID as value.
@@ -26,7 +25,7 @@ The components and values attached to an entity form a row.
 Tabula is an archetype-based ECS engine.
 An archetype is identified by a unique set of components.
 Archetypes are formatted as filesystem paths.
-Entities with the same archetype are stored in the same tablet.
+Rows with the same archetype are stored in the same tablet.
 A tablet is similar to a database table,
 but  `table` was already taken in Lua.
 Tablets are further split into shards that contain the actual row data.
